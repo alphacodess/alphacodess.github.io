@@ -1,0 +1,284 @@
+/*! 
+
+Website: www.alphacodes.xyz
+Version: v0.1 Open Beta
+License: MIT License | https://github.com/AlphaOfficial0
+/*  It is not allowed to be re-used in any way or without proper permission. */
+
+
+:root {
+	--background-color: #090E1A;
+	--light-background-color: #dbdbdb;
+	--text-color: white;
+	--gray-text-color: #44474C;
+	--gray-text-color-2: #9E9E9E;
+	--green: #44B37F;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, p, .title, .medium-widget, .medium-widget-article__content {
+  color: white;
+  text-color: white;
+}
+
+body, html {
+  background-color: var(--background-color) !important;
+  padding-bottom: 50px;
+}
+
+
+.navbar-item, a  {
+  color: var(--text-color);
+}
+
+.navbar-item:hover {
+    color: var(--light-background-color) !important;
+}
+
+.navbar-item:active {
+  background-color: #1A1C23 !important;
+}
+
+.navbar {
+  background-color: var(--background-color);
+	height: 105%;
+}
+
+@media screen and (min-width: 1087px) {
+  .navbar {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar {
+    margin-bottom: 50px;
+  }
+}
+
+.navbar-item, .navbar-link {
+  color: #F4F5F7 !important;
+}
+
+.navbar-dropdown {
+  background-color: var(--background-color) !important;  
+}
+
+.navbar-item:hover, .navbar-link:hover  {
+  color: var(--gray-text-color-2) !important;
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar-menu {
+    background-color: var(--background-color) !important;
+ }
+}
+
+
+
+
+@media screen and (max-width: 1087px) {
+  .bars {
+    padding-left: 27%;
+  }
+}
+
+.bar {
+  max-width: 200px;
+  padding-bottom: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #1a1c21 !important; 
+}
+
+.js progress::-webkit-progress-value {
+  background-color: #E8D44D !important;
+}
+
+.typejs progress::-webkit-progress-value {
+  background-color: #026AAF !important;
+}
+
+.html progress::-webkit-progress-value {
+  background-color: #e34c26 !important;
+}
+
+.php progress::-webkit-progress-value {
+  background-color: #8993be !important;
+}
+
+.node progress::-webkit-progress-value {
+  background-color: #83CD29 !important;
+}
+
+.social {
+  background-color: #1a1c21;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.icon {
+  font-size: 70%;
+}
+
+a:hover {
+  color: #9E9E9E  !important;
+}
+
+
+
+.menu-toggle-btn {
+
+  width: 250px;
+  background-color: #2188FF ;
+  border: 0;
+  padding: 10px 15px;
+  color: #53e3a6;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  transition-duration: 0.25s;
+  font-size: 128%;
+  min-height: 50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  margin-top: 10px;
+}
+
+.menu-toggle-btn:hover {
+  
+  width: 250px;
+  background-color: #2188FF ;
+  border: 0;
+  padding: 10px 15px;
+  color: #53e3a6;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  transition-duration: 0.25s;
+  font-size: 128%;
+  min-height: 50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  margin-top: 10px;
+  transition: 0.2s;
+  transform: translateY(-3px);
+  -webkit-box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+}
+
+
+.tippy-box[data-theme~='dark'] {
+  background-color: #1A1C21;
+  color: white;
+}
+
+@media screen and (max-width: 1087px) {
+	.banner {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (min-width: 1087px) {
+	.banner {
+		margin-top: 30px;
+		padding: 30px 100px;
+	}
+}
+
+
+.social {
+  background-color: #121C33;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+.social:hover {
+  background-color: #121729;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+
+a:hover {
+  color: #9E9E9E  !important;
+}
+
+.cv-btn {
+  width: 250px;
+  background-color: #121C33;
+  border: 0;
+  padding: 10px 15px;
+  color: #53e3a6;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  transition-duration: 0.25s;
+  font-size: 128%;
+  min-height: 50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  margin-top: 10px;
+}
+
+.cv-btn:hover { 
+  width: 250px;
+  background-color: #121729 ;
+  border: 0;
+  padding: 10px 15px;
+  color: #53e3a6;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  transition-duration: 0.25s;
+  font-size: 128%;
+  min-height: 50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  margin-top: 10px;
+  transition: 0.2s;
+  transform: translateY(-3px);
+  -webkit-box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 19px -5px rgba(0,0,0,0.75);
+}
+
+.social.icon {
+	font-size: 110%;
+}
+
+.subtitle {
+	color: var(--gray-text-color-2);
+}
+
+.box {
+	background-color: #0d1424 ;
+}
+
+.willLine {
+	background: url(https://cdn.discordapp.com/attachments/722556130210873484/789171236981833728/New_Project_9.png);
+	background-origin: border-box;
+	background-position:center top;
+	background-size: 120%;
+}
