@@ -25,7 +25,7 @@ Important! "Licensed with GPL-3.0 License! Please read the LICENSE.md before dis
 
 * This website is made using [Buefy](https://buefy.org/) > [Bulma](http://bulma.io/) with 💙
 
-### ✨ Contributors 
+### 🏹 Contributors 
 
 <a href="https://github.com/alphacodess" style="border-radius: 50% !important;">
   <img src="https://avatars1.githubusercontent.com/u/68996562?size=50" style="border-radius: 50% !important;">
@@ -34,3 +34,8 @@ Important! "Licensed with GPL-3.0 License! Please read the LICENSE.md before dis
 <a href="https://github.com/UmutGulmez" style="border-radius: 50% !important;">
   <img src="https://avatars3.githubusercontent.com/u/33429919?size=50" style="border-radius: 50% !important;">
 </a>
+
+<br><br>
+
+### [👻 Thanks to Umut.py (umutdev.xyz) for helping me develop this website!](https://umutdev.xyz)
+
