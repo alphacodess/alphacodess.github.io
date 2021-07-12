@@ -1,8 +1,8 @@
-# 🔥 yusufkdev.xyz 
+# 🔥 alphadev.xyz
 
 ### 🔧 Demo
 
-Visit the demo [here](https://yusufkdev.xyz).
+Visit the demo [here](https://alphadev.xyz).
 
 ### Main 
  If there is a question about the site, such as an error, you can reach me on [discord](https://discord.com/users/481425230636646419) or in the issue section.
